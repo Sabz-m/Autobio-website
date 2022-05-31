@@ -1,0 +1,119 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+* a {
+    color: forestgreen;
+}
+
+* a:hover{
+    color: brown;
+}
+
+.BackgroundHomepage {
+    background-image: url("AboutMeBackround.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+#homepageheading {
+    color: white;
+    size: 60px;
+}
+
+#Headings {
+    color: red;
+}
+#TextAboutMe {
+    text-align: center;
+    color: white;
+}
+
+#picture-of-me {
+    height: 10%;
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+}
+
+.BackgroundAboutMe {
+    background-image: url("AboutMeBackround.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+.BackgroundChildhood {
+    background-image: url("ChildhoodgamesBackround.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+.BackgroundAdulthood {
+    background-image: url("AdulthoodgamesBackround.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.BackgroundContactMe {
+    background-image: url("ContactMeBackround.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    background-attachment: fixed;
+}
+
+#nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    height:100px;
+    border-style: solid;
+    border-color: rgb(255, 0, 255);
+    border-width: 20px;
+    background-attachment: fixed;
+    position: sticky;
+    top:0px;
+}
+
+#bottom-nav {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    background-color: rgb(255, 255, 0);
+    height:100px;
+    border-style: solid;
+    border-color: rgb(255, 0, 255);
+    border-width: 20px;
+    background-attachment: fixed;
+    position: sticky;
+    bottom: 0px;
+}
+#adulthoodgames {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#adulthoodgames img {
+    width: 300px;
+    height: 150px;
+}
+#welcomeimage {
+    position: center;
+}
+
